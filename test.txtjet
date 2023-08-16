@@ -1,0 +1,12 @@
+<%@ jet package="test" %>def hello:
+    this = 1
+    pass
+<% if (test) {
+    callFunction();
+} %>
+if __name__() == "__main__":
+    python = "python"
+    print(f"this is {python}")
+<%= if (hello):
+    pass
+    %>
