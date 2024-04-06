@@ -4,6 +4,8 @@
 "<%=" @keyword
 "<%" @keyword
 "%>" @keyword
+"=" @operator
 
-(directive (ident) @function)
+(directive (ident) @type)
+(attribute (ident) @property)
 (string) @string
