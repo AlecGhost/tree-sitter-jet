@@ -1,7 +1,16 @@
 {
   "name": "tree-sitter-jet",
-  "version": "0.0.1",
   "description": "JET grammar for tree-sitter",
+  "author": {
+    "name": "AlecGhost",
+    "url": "https://github.com/AlecGhost"
+  },
+  "publisher": "AlecGhost",
+  "version": "0.0.1",
+  "license": "MIT",
+  "repository": {
+    "url": "https://github.com/AlecGhost/tree-sitter-jet"
+  },
   "main": "bindings/node",
   "types": "bindings/node",
   "keywords": [
