@@ -100,9 +100,18 @@
     }
   },
   {
+    "type": "string",
+    "named": true,
+    "fields": {}
+  },
+  {
     "type": "template",
     "named": true,
     "fields": {}
+  },
+  {
+    "type": "\"",
+    "named": false
   },
   {
     "type": "%>",
@@ -126,10 +135,6 @@
   },
   {
     "type": "ident",
-    "named": true
-  },
-  {
-    "type": "string",
     "named": true
   }
 ]

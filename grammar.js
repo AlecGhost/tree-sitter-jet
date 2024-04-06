@@ -21,6 +21,6 @@ module.exports = grammar({
 
     ident: ($) => /[a-zA-Z0-9_]+/,
 
-    string: ($) => /".*"/,
+    string: ($) => seq('"', repeat(/[^"]/), '"'),
   },
 });
