@@ -1,4 +1,4 @@
 ; injections.scm
 
-(template) @python
 (java) @java
+; (template) @language
